@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hizkya Cesar Kayika Sitorus</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Kerja</h1>
+    <hr width="33%" align="left">
+    <p>Isilah seluruh kolom registrasi dengan <br />sebenar-benarnya.</p>
+    <table>
+    	<tr>
+    	    <td valign="top">Nama :</td>
+    	    <td><input type="text" name="nama" placeholder="Masukan Nama anda"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Email :</td>
+    	    <td><input type="text" name="Email" placeholder="Masukan Email Anda"></td>
+    	</tr>
+    	<tr>
+               <td valign="top">Nomor HP :</td>
+               <td><input type="Nomor HP" name="Nomor HP Anda" placeholder="Nomor HP"></td>
+    	</tr>
+        <tr>
+            <td valign="top">LinkedIn :</td>
+            <td><input type="url" name="LinkedIn" placeholder="URL LinkedIn Anda"></td>
+        </tr>        
+    	<tr>
+    	    <td valign="top">Jenis Kelamin</td>
+    	    <td>
+    	    	<input type="radio" name="l">Laki-Laki<br />
+    	    	<input type="radio" name="p">Wanita
+    	    </td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Tanggal Lahir</td>
+    	    <td>
+    	       <input type="text" style="width: 25px" placeholder="dd">
+    	       <input type="text" style="width: 25px" placeholder="mm">
+    	       <input type="text" style="width: 50px" placeholder="yyyy">
+    	    </td>
+    	</tr>
+        <tr>
+            <td valign="top">Jenjang Pendidikan</td>
+            <td>
+                <select>
+                    <option>SD</option>
+                    <option>SMP/MTS</option>
+                    <option>SMA/SMK/MA</option>
+                    <option>S1</option>
+                    <option>S2</option>
+                    <option>S3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">Alamat Anda :</td>
+            <td><textarea placeholder="Masukkan Alamat Lengkap Anda" cols="30" rows="5"></textarea></td>
+        </tr>
+     <tr>
+            <td valign="top">Jenis Pekerjaan</td>
+            <td>
+                <div class="radio-options">
+                    <label for="wfo">WFO</label>
+                    <input type="radio" id="wfo" name="jenis-pekerjaan" value="wfo">
+                </div>
+                <div class="radio-options">
+                    <label for="wfh">WFH</label>
+                    <input type="radio" id="wfh" name="jenis-pekerjaan" value="wfh">
+                </div>
+            </td>
+        </tr>
+    	    <td valign="top">Kantor</td>
+    	    <td>
+    	        <select>
+    	            <option>Aceh</option>
+		    <option>Bali</option>
+		    <option>Banten</option>
+		    <option>Bengkulu</option>
+		    <option>Daerah Istimewa Yogyakarta	</option>
+		    <option>Daerah Khusus Ibukota Jakarta</option>
+		    <option>Gorontalo</option>
+		    <option>Jambi</option>
+		    <option>Jawa Barat</option>
+		    <option>Jawa Tengah</option>
+		    <option>Jawa Timur</option>
+		    <option>Kalimantan Barat</option>
+		    <option>Kalimantan Selatan</option>
+		    <option>Kalimantan Tengah</option>
+		    <option>Kalimantan Timur</option>
+		    <option>Kalimantan Utara</option>
+		    <option>Kepulauan Bangka Belitung</option>
+		    <option>Kepulauan Riau</option>
+		    <option>Lampung</option>
+		    <option>Maluku</option>
+		    <option>Maluku Utara</option>
+            <option>Nusa Tenggara Barat</option>
+		    <option>Nusa Tenggara Timur</option>
+		    <option>Papua</option>
+		    <option>Papua Barat</option>
+		    <option>Papua Barat Daya</option>
+		    <option>Papua Pegunungan</option>
+		    <option>Papua Selatan</option>
+		    <option>Papua Tengah</option>
+		    <option>Riau</option>
+		    <option>Sulawesi Barat</option>
+		    <option>Sulawesi Selatan</option>
+		    <option>Sulawesi Tengah</option>
+		    <option>Sulawesi Tenggara</option>
+		    <option>Sulawesi Utara</option>
+		    <option>Sumatera Barat</option>
+		    <option>Sumatera Selatan</option>
+		    <option>Sumatera Utara</option>
+    	        </select>
+    	    </td>
+    	</tr>
+        <body>
+            <table>
+                <tr>
+                    <td valign="top">Unggah CV</td>
+                    <td>
+                        <form action="proses_upload.php" method="post" enctype="multipart/form-data">
+                            <input type="file" name="cv" id="cv" accept=".pdf, .doc, .docx">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Unggah Portofolio</td>
+                    <td>
+                        <form action="proses_upload.php" method="post" enctype="multipart/form-data">
+                            <input type="file" name="Portofolio" id="cv" accept=".pdf, .doc, .docx">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Deskripsi Diri  :</td>
+                    <td><textarea placeholder="Tolong Deskripsikan Diri Anda" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td valign="top">Alasan Mendaftar :</td>
+                    <td><textarea placeholder="Tolong Berikan Alasan Anda" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                <body>
+                    <form action="proses_gaji.php" method="post">
+                        <label for="gaji-range">Nominal Gaji </label>
+                        <input type="range" id="gaji-range" name="gaji-range"min="0" max="10000000" step="1000000" value="0">
+                        <output id="gaji-output" for="gaji-range">0 Rupiah</output>
+                        <script>
+                            const gajiRangeInput = document.getElementById("gaji-range");
+                            const gajiOutput = document.getElementById("gaji-output");
+                
+                            gajiRangeInput.addEventListener("input", function() {
+                                const gajiRupiah = parseInt(gajiRangeInput.value);
+                                const gajiBulanan = gajiRupiah; 
+                
+                                gajiOutput.textContent = `${gajiBulanan.toFixed(2)} Rupiah`;
+                            });
+                        </script>
+                    </form>
+                </body>
+            <br>
+            </tr>
+            <body>
+                <form action="proses_pengalaman.php" method="post">
+                    <label for="pengalaman-range">Pengalaman Kerja </label>
+                    <input type="range" id="pengalaman-range" name="pengalaman-range" min="0" max="5" step="1" value="0">
+                    <output id="pengalaman-output" for="pengalaman-range">0 Tahun</output>
+                    <script>
+                        const pengalamanRangeInput = document.getElementById("pengalaman-range");
+                        const pengalamanOutput = document.getElementById("pengalaman-output");
+            
+                        pengalamanRangeInput.addEventListener("input", function() {
+                            const pengalamanTahun = parseInt(pengalamanRangeInput.value);
+                            pengalamanOutput.textContent = `${pengalamanTahun} Tahun`;
+                        });
+                    </script>
+                </form>
+            </body>
+        </body>
+        <br>
+        <br>
+    	    <td colspan="2"><input type="submit" value="Simpan"></td>
+    	</tr>
+    </table>
+</body>
+</html>
